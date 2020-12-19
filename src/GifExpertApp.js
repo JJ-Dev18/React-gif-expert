@@ -10,7 +10,7 @@ export const GifExpertApp = () => {
     
     return (
         <>
-               <h1>Te amo Maria Camila Novoa juntosx100pre </h1>
+              
                <h2>GifExpertApp</h2>
                <AddCategory  setCategories={setCategories} categories={categories}/>
                <hr/>
