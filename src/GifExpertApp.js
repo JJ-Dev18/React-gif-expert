@@ -2,15 +2,15 @@ import React, {useState} from 'react'
 import { AddCategory } from './components/AddCategory';
 import { GiftGrid } from './components/GiftGrid';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategories = []}) => {
      
    
-    const [categories, setCategories] = useState(['One punch']);
+    const [categories, setCategories] = useState(defaultCategories);
    
     
     return (
         <>
-               <h1>Te amo Maria Camila Novoa juntosx100pre </h1>
+              
                <h2>GifExpertApp</h2>
                <AddCategory  setCategories={setCategories} categories={categories}/>
                <hr/>

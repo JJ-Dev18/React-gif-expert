@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en el componente principal GifExpertAPP Debe cargarse correctamente el gifExpertApp 1`] = `
+<Fragment>
+  <h1>
+    Te amo Maria Camila Novoa juntosx100pre 
+  </h1>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    categories={Array []}
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Prueba en el componente principal GifExpertAPP debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h1>
+    Te amo Maria Camila Novoa juntosx100pre 
+  </h1>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    categories={
+      Array [
+        "one punch",
+        "dragon ball",
+      ]
+    }
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GiftGrid
+      category="one punch"
+      key="one punch"
+    />
+    <GiftGrid
+      category="dragon ball"
+      key="dragon ball"
+    />
+  </ol>
+</Fragment>
+`;
