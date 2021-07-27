@@ -2,7 +2,7 @@ import React  from 'react';
 import { GifGridItem } from './GifGridItem';
 import { useFetchGifs } from '../hooks/useFetchGifs';
 import PropTypes from 'prop-types';
-import { getUser } from '../helpers/getUser';
+
 // import { getGifs } from '../Helpers/getGifs';
 
 
@@ -10,7 +10,7 @@ export const GiftGrid = ({category}) => {
 
     // const [images, setImages] = useState([])
     const {data: images ,loading} = useFetchGifs(category);
-    const user = getUser();
+  
     // useEffect(() => {
     //    getGifs(category).then( imgs => setImages(imgs))
     // },[category])

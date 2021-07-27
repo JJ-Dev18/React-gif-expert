@@ -23,17 +23,20 @@ export const AddCategory = ({setCategories}) => {
         }
      }
     return (
-        <form onSubmit={handleSubmit}>
-            <h2>Add Category</h2>
-           
-             <input 
-             type="text"
-             value={inputValue}
-             onChange={ handleInputChange}
-             ></input>
-             
-        </form>
-    )
+      <form onSubmit={handleSubmit}>
+        <h2 className="animate__animated animate__bounceInDown">
+          Add Category
+        </h2>
+
+        <input
+          className="animate__animated animate__bounceInDown"
+          type="text"
+          value={inputValue}
+          onChange={handleInputChange}
+          placeholder="Min 3 words"
+        ></input>
+      </form>
+    );
 
    
 }

@@ -1,12 +1,12 @@
 
-export const getUser = async () => {
+// export const getUser = async () => {
 
-      const url = 'http://montesanto.graciadev.com/api/login/login?user=admin&pass=123456';
+//       const url = 'http://montesanto.graciadev.com/api/login/login?user=admin&pass=123456';
 
-      const resp = await fetch(url);
+//       const resp = await fetch(url);
 
-      const data = await resp.json();
+//       const data = await resp.json();
 
-      console.log(data);
+//       console.log(data);
 
-}
+// }
